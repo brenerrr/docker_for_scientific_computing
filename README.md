@@ -16,7 +16,7 @@ Although not strictly necessary, I recommend going through all chapters in order
 4. [Graphical Applications](src/4.%20Graphical%20Applications/Graphical%20Applications.md)
 5. [MPI](src/5.%20MPI/MPI.md)
 6. [CUDA](src/6.%20CUDA/CUDA.md)
-7. [Creating Your Own Image](src/7.%20Creating%20our%20Own%20Image/Creating%20our%20Own%20Dockerfile.md)
+7. [Creating Your Own Image](src/7.%20Creating%20Your%20Own%20Image/Creating%20Your%20Own%20Image.md)
 8. [Integration with VS Code](src/8.%20Integration%20with%20VS%20Code/Integration%20with%20VS%20Code.md)
 9. [Wrap it Up](src/9.%20Wrap%20It%20Up/Wrap%20It%20Up.md)
 
