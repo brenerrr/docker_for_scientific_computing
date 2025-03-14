@@ -10,15 +10,15 @@ This repository contains a series of tutorials showing how to use Docker to easi
 
 Although not strictly necessary, I recommend going through all chapters in order.
 
-1. [First Things First](1.%20First%20Things%20First/First%20Things%20First.md)
-2. [Getting Started with Docker Containers](2.%20Getting%20Started%20with%20Docker%20Containers/Getting%20Started%20with%20Docker%20Containers.md)
-3. [Volumes](3.%20Volumes/Volumes.md)
-4. [Graphical Applications](4.%20Graphical%20Applications/Graphical%20Applications.md)
-5. [MPI](5.%20MPI/MPI.md)
-6. [CUDA](6.%20CUDA/CUDA.md)
-7. [Creating Your Own Image](7.%20Creating%20our%20Own%20Image/Creating%20our%20Own%20Dockerfile.md)
-8. [Integration with VS Code](8.%20Integration%20with%20VS%20Code/Integration%20with%20VS%20Code.md)
-9. [Wrap it Up](9.%20Wrap%20It%20Up/Wrap%20It%20Up.md)
+1. [First Things First](src/1.%20First%20Things%20First/First%20Things%20First.md)
+2. [Getting Started with Docker Containers](src/2.%20Getting%20Started%20with%20Docker%20Containers/Getting%20Started%20with%20Docker%20Containers.md)
+3. [Volumes](src/3.%20Volumes/Volumes.md)
+4. [Graphical Applications](src/4.%20Graphical%20Applications/Graphical%20Applications.md)
+5. [MPI](src/5.%20MPI/MPI.md)
+6. [CUDA](src/6.%20CUDA/CUDA.md)
+7. [Creating Your Own Image](src/7.%20Creating%20our%20Own%20Image/Creating%20our%20Own%20Dockerfile.md)
+8. [Integration with VS Code](src/8.%20Integration%20with%20VS%20Code/Integration%20with%20VS%20Code.md)
+9. [Wrap it Up](src/9.%20Wrap%20It%20Up/Wrap%20It%20Up.md)
 
 
 
