@@ -63,6 +63,8 @@ To confirm everything was installed successfully, open a terminal and execute `d
 
 ![](hello.png)
 
+> [!IMPORTANT]
+> If you are running Windows, execute all terminal commands on Powershell or WSL.
 
 ## Other
 - In order to follow along, you need a basic knowledge of how to use a Linux terminal.
