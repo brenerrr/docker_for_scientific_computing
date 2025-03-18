@@ -19,7 +19,7 @@ touch code.txt
 ## Launching a Container with a Mount Point
 Now launch a container with
 
-```docker run --rm -it --volume=${PWD}:/workdir  ubuntu:20.04```
+```docker run --rm -it --volume "${PWD}:/workdir"  ubuntu:20.04```
 
 > [!IMPORTANT]
 > In order to use the command above you need to navigate to the mount point before launching the container. If you are using a terminal at a different location replace `${PWD}` with the full path to the mount point directory.

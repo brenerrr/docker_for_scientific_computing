@@ -17,7 +17,7 @@ I am assuming that you are minimally familiar with VS Code and it is already ins
 
 Assume that the *mpi_example* image from the [Creating Your Own Image](../7.%20Creating%20Your%20Own%20Image/Creating%20Your%20Own%20Image.md) chapter already has all required dependencies. Navigate to a folder which will serve as a mount point between host and container and run
 
-```docker run -it --volume ${PWD}:/workdir --name mpi_container mpi_example```
+```docker run -it --volume "${PWD}:/workdir" --name mpi_container mpi_example```
 
 Now open a VS Code window and click on the Docker icon on the left side bar. Some information such as all available images and containers are displayed.
 
@@ -31,7 +31,7 @@ When you attach a new VS Code Window to a container it doesn't have any extensio
 
 ## Resuming Work
 
-Remember the terminal you used to run `docker run -it --volume ${PWD}:/workdir --name mpi_container mpi_example`? Close it. The following error should appear.
+Remember the terminal you used to run `docker run -it --volume "${PWD}:/workdir" --name mpi_container mpi_example`? Close it. The following error should appear.
 
 ![](vscode_error.png)
 
