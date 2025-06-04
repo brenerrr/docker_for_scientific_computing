@@ -17,12 +17,12 @@ sudo usermod -aG dockeraccess $(whoami)
 sudo chown -R :dockeraccess /path/to/local/data
 sudo chmod -R 2770 /path/to/local/data
 ```
-1. Once the image is built, you can start a container with: `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" `.
+1. Once the image is built, you can start a container with: `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" brenerrr/cgns`.
 
 
 
 > [!IMPORTANT]
 > If you encounter issues with graphical applications, refer to the [Graphical Applications chapter](../../src/4.%20Graphical%20Applications/Graphical%20Applications.md).
 
-By default, the container launches a terminal. If you only want to run a specific executable (e.g., cgnsview), you can do so directly with `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" cgnsview `.
+By default, the container launches a terminal. If you only want to run a specific executable (e.g., cgnsview), you can do so directly with `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" brenerrr/cgns cgnsview `.
 
