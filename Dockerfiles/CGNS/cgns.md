@@ -9,16 +9,15 @@ This Dockerfile provides two main packages:
 
 To build a Docker image and container using this Dockerfile, follow these steps:
 
-1. Download the Dockerfile and open a terminal in the same directory.
-2. Run the command `docker build -t CGNS . `.
-3. Before launching the container, a group with the current user as well as docker needs to be created. This will make sure the current user has permission to access files created inside the container. Execute the commands below to do so. The directory `/path/to/local/data` is the volume that will be shared between container and host (see [Volumes chapter](../../src/3.%20Volumes/Volumes.md)).
+1. Download the Dockerfile, open a terminal in the same directory and run the command `docker build -t brenerrr/cgns . ` to build the image. Alternatively, you can directly download it with `docker image pull brenerrr/cgns`.
+2. Before launching the container, a group with the current user as well as docker needs to be created. This will make sure the current user has permission to access files created inside the container. Execute the commands below to do so. The directory `/path/to/local/data` is the volume that will be shared between container and host (see [Volumes chapter](../../src/3.%20Volumes/Volumes.md)).
 ```
 sudo groupadd -g 9999 dockeraccess
 sudo usermod -aG dockeraccess $(whoami)
 sudo chown -R :dockeraccess /path/to/local/data
 sudo chmod -R 2770 /path/to/local/data
 ```
-4. Once the image is built, you can start a container with: `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" `.
+1. Once the image is built, you can start a container with: `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" `.
 
 
 
