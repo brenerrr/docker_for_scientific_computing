@@ -15,7 +15,7 @@ To build a Docker image and container using this Dockerfile, follow these steps:
 sudo groupadd -g 9999 dockeraccess
 sudo usermod -aG dockeraccess $(whoami)
 sudo chown -R :dockeraccess /path/to/local/data
-sudo chmod -R 2770 /path/to/local/data
+sudo chmod -R 2775 /path/to/local/data
 ```
 1. Once the image is built, you can start a container with: `docker run --rm -it --network host --env DISPLAY=$DISPLAY --volume "/path/to/local/data:/root/data" brenerrr/cgns`.
 
