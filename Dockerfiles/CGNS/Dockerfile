@@ -126,3 +126,5 @@ RUN \
     sed -i "12 c\option(\'nav\', type: \'boolean\', value: true," meson_options.txt && \
     pip install . --no-build-isolation
 
+USER 9999:9999
+RUN "umask 002" >> ~/.bashrc
