@@ -127,4 +127,4 @@ RUN \
     pip install . --no-build-isolation
 
 USER 9999:9999
-RUN "umask 002" >> ~/.bashrc
+RUN echo "umask 002" >> ~/.bashrc
